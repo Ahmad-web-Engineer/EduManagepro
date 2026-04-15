@@ -1,0 +1,58 @@
+<!-- Fee Profile Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Fee Profile</title>
+</head>
+<body>
+    <div class="fee-profile">
+        <h1>Student Fee Profile</h1>
+        <div class="student-info">
+            <h2>Student Information</h2>
+            <p>Name: [Student Name]</p>
+            <p>ID: [Student ID]</p>
+        </div>
+        <div class="fee-summary">
+            <h2>Fee Summary</h2>
+            <div class="summary-card">Total Fees: [Total Fees]</div>
+            <div class="summary-card">Outstanding Fees: [Outstanding Fees]</div>
+            <div class="summary-card">Paid Fees: [Paid Fees]</div>
+        </div>
+        <div class="monthly-breakdown">
+            <h2>Monthly Fee Breakdown</h2>
+            <table>
+                <tr>
+                    <th>Month</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+                <!-- Monthly Fee Data -->
+            </table>
+        </div>
+        <div class="payment-history">
+            <h2>Payment History</h2>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>Method</th>
+                </tr>
+                <!-- Payment Records -->
+            </table>
+        </div>
+        <div class="record-payment-modal">
+            <h2>Record a New Payment</h2>
+            <form>
+                <label for="payment-amount">Amount:</label>
+                <input type="text" id="payment-amount" name="payment-amount" required>
+                <label for="payment-date">Date:</label>
+                <input type="date" id="payment-date" name="payment-date" required>
+                <button type="submit">Record Payment</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
